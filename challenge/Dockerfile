@@ -17,4 +17,5 @@ COPY ynetd .
 RUN chown -R root:root /home/ctf
 
 USER ctf
+EXPOSE 1024
 CMD ./ynetd -p 1024 ./system_health_check
