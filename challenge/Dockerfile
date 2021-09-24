@@ -1,7 +1,7 @@
 # sudo docker build -t system_health_check .
 # sudo docker run -d -p 1024:1024 --rm -it system_health_check
 
-FROM ubuntu:19.10
+FROM ubuntu:20.04
 
 RUN apt-get update
 
