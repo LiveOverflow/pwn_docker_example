@@ -5,3 +5,4 @@ cd pwndbg
 ./setup.sh
 cd ..
 apt-get install gem -y
+gem install one_gadget
